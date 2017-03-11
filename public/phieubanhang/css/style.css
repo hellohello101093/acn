@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+.clear{
+    clear: left;
+}
+.align-right{
+    text-align: right;
+}
+#body{
+    width: 1000px ;
+    margin: 10px auto;
+    font-size: 14px;
+}
+#logo{
+    float: left;
+    width: 300px;
+}
+#info{
+    float: left;
+    padding-top: 15px;
+    padding-left: 5px;
+    width: 680px;
+    line-height: 20px;
+}
+#info input{
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    outline: 0;
+}
+
+#info h3{
+    font-size: 20px;
+}
+#customer{
+    padding:10px 40px;
+    font-size: 16px;
+    line-height: 35px;
+}
+#customer input{
+    border: none;
+    outline: 0;
+    background: none;
+    margin-left: 20px;
+    width: 300px;
+}
+#customer table tr th{
+    text-align: left;
+    padding-right: 10px;
+}
+#customer table tr td span{
+   margin-left: 10px;
+}
+#detail{
+    width: 1000px;
+}
+#detail table tr td input ,#detail table tr td select{
+    border: none;
+    outline: 0;
+    background: none;
+}
+.chosen-search input{
+    border: 1px solid #CCC !important;
+    background: none;
+}
+#detail .price{
+    text-align: right;
+}
+#detail table{
+   width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0 ;
+}
+#detail table th{
+    line-height: 25px;
+}
+#detail table td{
+    line-height: 30px;
+    padding: 2px 5px;
+}
+.view {
+    float: right;
+    margin-right: 20px;
+    padding: 5px 10px;
+    background-color: #00baff;
+    color: #FFF;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
